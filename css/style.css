@@ -1,10 +1,12 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 16px;
+  line-height: 2;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,1);
   float: left;
   position: fixed;
   width: 100%;
@@ -13,6 +15,7 @@ nav {
 .logo {
   margin: 20px;
   width: 100px;
+
 }
 
 .large-pic {
@@ -21,11 +24,13 @@ nav {
 
 .medium-pic {
   width: 70%;
+  background-image: url(/images/instagram-pic.jpg);
 }
 
 .left, .right {
   float: left;
   width: 50%;
+  font-size: 150%;
 }
 
 .right {
@@ -50,3 +55,18 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+h1 {
+font-size: 200%;
+font-weight: bold;
+}
+figcaption {
+  font-size: 100%
+}
+h3, .author {
+  font-size: 150%
+}
+a {
+  text-decoration: none;
+}
+a:hover { color:#0070BC; }
+a:visited { color:#0070BA; }
