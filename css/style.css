@@ -5,6 +5,10 @@ body {
   line-height: 2;
 }
 
+p {
+padding: 8px;
+}
+
 nav {
   background-color: rgba(0,0,0,1);
   float: left;
@@ -31,10 +35,6 @@ nav {
   float: left;
   width: 50%;
   font-size: 150%;
-}
-
-.right {
-  float: right;
 }
 
 ul {
